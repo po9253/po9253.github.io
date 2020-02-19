@@ -9,7 +9,6 @@
   height:20%;
   width:100%;
   background:black;
-  border:double red;
   color:purple;
   font-size:50;
   text-align:center;
@@ -20,7 +19,6 @@
   background:Purple;
   font-size:20;
   text-align:center;
-  border:inset orange;
   margin:5;
 }
 #content{
@@ -30,4 +28,5 @@
   border:dotted purple;
   margin-left:30;
 }
+ 
  
