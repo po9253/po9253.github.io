@@ -1,7 +1,7 @@
 #sidebar {
   background:blue;
   float:left;
-  height:300;
+  height:500;
   width:50;
   border:ridge black;
 }
@@ -19,14 +19,22 @@
   background:Purple;
   font-size:20;
   text-align:center;
-  margin:5;
+  
 }
 #content{
   text-align:center;
   background:Red;
   height:500;
   border:dotted purple;
-  margin-left:30;
+  
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+}
+
  
  
