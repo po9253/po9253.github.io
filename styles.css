@@ -1,39 +1,17 @@
-#sidebar {
-  background:blue;
-  float:left;
-  height:500;
-  width:50;
-  border:ridge black;
-}
-#banner {
-  height:20%;
-  width:100%;
-  background:black;
-  color:purple;
-  font-size:50;
-  text-align:center;
-}
-#nav{
-  height:9%;
-  width:100%;
-  background:Purple;
+#nav {
   font-size:20;
-  text-align:center;
-  
+  background-color: Black;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
-#content{
-  text-align:center;
-  background:Red;
-  height:500;
-  border:dotted purple;
-  
-}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: gray;
+  background-color: Black;
 }
 
 li {
@@ -47,74 +25,9 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
-}
-.active {
-  background-color: #4CAF50;
-}
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('img_Joker.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-/* Style inputs */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-/* Style the container/contact section */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-}
-
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
- 
